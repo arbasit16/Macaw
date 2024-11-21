@@ -2,6 +2,8 @@ import Foundation
 
 #if os(iOS)
 import UIKit
+#elseif os(macOS)
+import AppKit
 #endif
 
 class RenderContext {
